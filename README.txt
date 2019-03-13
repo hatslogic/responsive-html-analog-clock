@@ -9,3 +9,5 @@ Include the css - analog-clock-style.css
 Give the class class="analog-clock" to the div where you want to display the clock
 
 Done - clock will show up inside that div!
+
+Play with the colors of the clock by changing values in analog-clock-custom.js to customize for your website.
