@@ -1,13 +1,13 @@
 	$(document).ready(function(){
 
 		// Customize clock
-		var clockBgColor = "#272822";		/*Change clock background colour*/
+		var clockDialColor = "#272822";		/*Change clock dial colour*/
 		var clockBorderColor = "#000";		/*Change clock border color*/
-		var dialColor = "#fff";				/*Change clock dial color*/
-		var centerColor = "red";			/*Change clock center round color*/
-		var hoursColor = "#fff";			/*Change clock hours needle color*/
-		var minutesColor = "#fff";			/*Change clock minutes needle color*/
-		var secondsColor = "red";			/*Change clock seconds needle color*/
+		var hourMarkingColor = "#fff";		/*Change clock hour markings color*/
+		var centerColor = "red";		/*Change clock center round color*/
+		var hoursColor = "#fff";		/*Change clock hours needle color*/
+		var minutesColor = "#fff";		/*Change clock minutes needle color*/
+		var secondsColor = "red";		/*Change clock seconds needle color*/
 
 
 		$( ".analog-clock" ).append( "<div class='clock-container'><div class='clock-dial'><div class='overlay'></div><div class='hours'></div><div class='minutes'></div><div class='seconds'></div><div class='center'></div></div>");
@@ -39,9 +39,9 @@
 		
 		var clockWidth = "100%";
 		$(".clock-container").css("width", clockWidth);
-		$(".overlay").css("background-color", clockBgColor);
+		$(".overlay").css("background-color", clockDialColor);
 		$(".clock-dial").css("background-color", clockBorderColor);
-		$(".clock-dial>span").css("background-color", dialColor);
+		$(".clock-dial>span").css("background-color", hourMarkingColor);
 		$(".center").css("background-color", centerColor);
 		$(".hours").css("background-color", hoursColor);
 		$(".minutes").css("background-color", minutesColor);
